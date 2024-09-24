@@ -20,6 +20,7 @@ from MainApp.views import test
 
 urlpatterns = [
     path('test/',test),
+     path('about/',view.about),
     
 ]
 
