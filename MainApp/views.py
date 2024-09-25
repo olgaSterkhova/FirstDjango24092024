@@ -14,7 +14,7 @@ items = [
    {"id": 8, "name": "Кепка" ,"quantity":124},
 ]
 
-items = Item.objects.all()
+
 
 def home(request):
     context = {
